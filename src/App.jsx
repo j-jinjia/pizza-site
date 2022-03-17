@@ -6,10 +6,9 @@ function App() {
   return (
     <>
       <nav className="app">
-        <Heading />;
+        <Heading />
         <About />
       </nav>
-      ;
     </>
   );
 }

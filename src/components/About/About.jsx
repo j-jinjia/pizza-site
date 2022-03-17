@@ -1,12 +1,13 @@
 import React from "react";
 import "./About.scss";
+import StepOne from "../StepOne/StepOne";
 
 const About = () => {
   return (
     <>
       <div className="about">
         <h2 className="about-title">About</h2>
-        <p>
+        <p className="about-content">
           {" "}
           An Italian pizza restaurant, that started selling "make your own" kits
           during covid. Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -15,6 +16,7 @@ const About = () => {
           ipsa explicabo placeat minus reiciendis.
         </p>
       </div>
+      <StepOne />
     </>
   );
 };

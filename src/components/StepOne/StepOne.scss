@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.step-one {
+  display: flex;
+  align-items: center;
+
+  &__heading {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    color: #8c1f1e;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+  }
+
+  &__content {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+
+  &__image {
+    height: 23rem;
+  }
+
+  &__input {
+    margin-left: 2rem;
+  }
+}
