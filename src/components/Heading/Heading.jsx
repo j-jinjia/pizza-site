@@ -8,9 +8,9 @@ const Heading = () => {
       <div className="navbar">
         <h1 className="navbar__title">Pocco Fuocco</h1>
         <ul className="links">
-          <a>About</a>
-          <a>Order</a>
-          <a>Get in touch</a>
+          <li>About</li>
+          <li>Order</li>
+          <li>Get in touch</li>
         </ul>
       </div>
       <img className="navbar__icon" src={pizza} alt="pizza-icon" />
