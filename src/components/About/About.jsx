@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
 import StepOne from "../StepOne/StepOne";
+import StepTwo from "../StepTwo/StepTwo";
 
 const About = () => {
   return (
@@ -17,6 +18,7 @@ const About = () => {
         </p>
       </div>
       <StepOne />
+      <StepTwo />
     </>
   );
 };

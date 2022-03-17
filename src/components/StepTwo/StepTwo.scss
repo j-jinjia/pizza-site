@@ -1,0 +1,27 @@
+.step-two {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+
+  &__heading {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    color: #8c1f1e;
+    text-transform: uppercase;
+    padding-right: 0.5rem;
+  }
+
+  &__content {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 0.5rem;
+  }
+
+  &__image {
+    height: 20rem;
+  }
+
+  &__input {
+    margin-left: 2rem;
+  }
+}
