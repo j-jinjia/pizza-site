@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Euphoria+Script&family=Inter:wght@100&family=La+Belle+Aurore&family=Poppins:wght@100;200;300;400;600&display=swap");
 .step-one {
   display: flex;
   align-items: center;
@@ -10,6 +9,7 @@
     color: #8c1f1e;
     text-transform: uppercase;
     padding-right: 0.5rem;
+    font-family: "Poppins", sans-serif;
   }
 
   &__content {

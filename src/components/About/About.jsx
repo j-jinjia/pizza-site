@@ -2,12 +2,13 @@ import React from "react";
 import "./About.scss";
 import StepOne from "../StepOne/StepOne";
 import StepTwo from "../StepTwo/StepTwo";
+import StepThree from "../StepThree/StepThree";
 
 const About = () => {
   return (
     <>
       <div className="about">
-        <h2 className="about-title">About</h2>
+        <h2 className="about-title">Our Story</h2>
         <p className="about-content">
           {" "}
           An Italian pizza restaurant, that started selling "make your own" kits
@@ -19,6 +20,7 @@ const About = () => {
       </div>
       <StepOne />
       <StepTwo />
+      <StepThree />
     </>
   );
 };

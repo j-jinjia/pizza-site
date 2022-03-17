@@ -8,7 +8,7 @@ const Heading = () => {
       <div className="navbar">
         <h1 className="navbar__title">Pocco Fuocco</h1>
         <ul className="links">
-          <li>About</li>
+          <li>Our Story</li>
           <li>Order</li>
           <li>Get in touch</li>
         </ul>

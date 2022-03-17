@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Euphoria+Script&family=Inter:wght@100&family=La+Belle+Aurore&family=Poppins:wght@100;200;300;400;600&display=swap");
-
-.step-two {
+.step-three {
   display: flex;
   align-items: center;
   padding-top: 3rem;
@@ -10,19 +9,17 @@
     padding-bottom: 2rem;
     color: #8c1f1e;
     text-transform: uppercase;
+    text-align: center;
     padding-right: 0.5rem;
     font-family: "Poppins", sans-serif;
   }
 
   &__content {
+    text-align: center;
     padding-left: 2rem;
     padding-bottom: 2rem;
     padding-right: 0.5rem;
     font-family: "Poppins", sans-serif;
-  }
-
-  &__image {
-    height: 20rem;
   }
 
   &__input {
